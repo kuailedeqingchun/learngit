@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">设备助手</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_forget_password">ForgetPassword</string>
+    <string name="title_activity_home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_blue_list">BlueList</string>
+    <string name="title_activity_base_action_bar">BaseActionBarActivity</string>
+    <string name="title_activity_sq_apply">SqApply</string>
+    <string name="title_activity_yonghu">Yonghu</string>
+    <string name="title_activity_add_yonghu">AddYonghu</string>
+    <string name="title_activity_equiplist">Equiplist</string>
+    <string name="title_activity_right_record">RightRecord</string>
+    <string name="title_activity_query_right">QueryRight</string>
+    <string name="title_activity_use_record">UseRecord</string>
+    <string name="title_activity_query_use">QueryUse</string>
+    <string name="title_activity_user_information">UserInformation</string>
+    <string name="title_activity_versioninformation">Versioninformation</string>
+    <string name="title_activity_modifyczpassword">Modifyczpassword</string>
+    <string name="title_activity_modifzpassword">Modifzpassword</string>
+    <string name="title_activity_sq_message">SqMessage</string>
+    <string name="title_activity_system_message">SystemMessage</string>
+    <string name="title_activity_shou_qmessage">ShouQMessage</string>
+</resources>

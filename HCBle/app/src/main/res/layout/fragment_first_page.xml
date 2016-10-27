@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <TextView
+        style="@style/TitleStyle"
+        android:text="设备助手"/>
+    <com.youth.banner.Banner
+        android:layout_weight="20"
+        android:id="@+id/banner1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:is_auto_play="true"></com.youth.banner.Banner>
+
+    <LinearLayout
+        android:layout_weight="7.75"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7.5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/sqNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/back1"
+            android:paddingTop="30dp"
+            android:text="操作次数   10次"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/Electricity"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="剩余电量   80%"
+            android:background="@drawable/back2"
+            android:paddingTop="30dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/logindate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="最近登录"
+            android:background="@drawable/back3"
+            android:paddingTop="30dp"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="11.75"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/bt_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/connect" />
+        <ToggleButton
+            android:layout_weight="1"
+            android:id="@+id/bt_start"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textOn="关闭设备"
+            android:textOff="启动设备"
+            android:textSize="13dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="70dp"
+            android:paddingRight="5dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="5dp"
+            android:checked="false"
+            android:background="@drawable/back13" />
+
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/bt_sqApply"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="11.75"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:layout_weight="1"
+            android:id="@+id/loseSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textOn="防丢开启"
+            android:textOff="防丢关闭"
+            android:textSize="13dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="70dp"
+            android:paddingRight="5dp"
+            android:textColor="#FFFFFF"
+            android:checked="true"
+            android:background="@drawable/back7"
+            />
+        <ImageButton
+            android:layout_weight="1"
+            android:id="@+id/bt_find"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back8"
+            >
+        </ImageButton>
+        <ToggleButton
+            android:layout_weight="1"
+            android:id="@+id/lockSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textOn="锁定开启"
+            android:textOff="锁定关闭"
+            android:textSize="13dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="70dp"
+            android:paddingRight="5dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back9"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"></LinearLayout>
+
+
+</LinearLayout>
+
+
+

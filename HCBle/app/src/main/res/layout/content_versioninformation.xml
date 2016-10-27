@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.liushuai.hcble.ui.Versioninformation"
+    tools:showIn="@layout/activity_versioninformation">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:background="#d24a58">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="15dp"
+            android:text="返回"
+            android:textSize="15dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/arrow" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:text="版本信息"/>
+    </FrameLayout>
+    <TextView
+        android:id="@+id/versionCode"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:layout_height="30dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@android:color/darker_gray" />
+    <Button
+        android:id="@+id/checkupdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:paddingLeft="-300dp"
+        android:text="检查更新"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

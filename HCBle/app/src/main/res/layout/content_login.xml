@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background"
+    android:fitsSystemWindows="true">
+    <TextView
+        android:background="@color/colorAccent"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x520" />
+    <EditText
+        android:padding="0dp"
+        android:id="@+id/register_username"
+        android:layout_width="@dimen/x267"
+        android:layout_height="@dimen/x70"
+        android:background="@null"
+        android:textColor="#D1D1D1"
+        android:layout_gravity="center_horizontal"
+        android:hint="请输入手机号码"
+        android:textColorHint="#D1D1D1"
+        android:textSize="15dp"
+        />
+
+    <EditText
+        android:padding="0dp"
+        android:id="@+id/register_passwd"
+        android:layout_width="@dimen/x267"
+        android:layout_height="@dimen/x70"
+        android:layout_marginTop="@dimen/x31"
+        android:layout_gravity="center_horizontal"
+        android:hint="请输入密码"
+        android:textColorHint="#D1D1D1"
+        android:textSize="15dp"
+        android:textColor="#D1D1D1"
+        android:background="@null"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_width="@dimen/x650"
+        android:layout_height="@dimen/x100"
+        android:layout_marginTop="@dimen/x120"
+        android:text="登录"
+        android:textColor="#2B2941"
+        android:textSize="20dp"
+        android:background="#D24A58"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/forget_submit"
+        android:layout_width="@dimen/x250"
+        android:layout_height="@dimen/x80"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_marginTop="@dimen/x30"
+        android:background="@null"
+        android:text="忘记密码?"
+        android:textColor="#D1D1D1"
+        android:textSize="15dp"
+        android:layout_gravity="right" />
+
+    <Button
+        android:id="@+id/register_submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x50"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/x250"
+        android:text="还没有账号?注册一个"
+        android:textColor="#D1D1D1"
+        android:textSize="15dp"
+        android:background="@null" />
+
+
+</LinearLayout>

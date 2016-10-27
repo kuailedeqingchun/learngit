@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:layout_width="match_parent"
+         android:layout_height="49dp"
+         android:background="#2b2941" >
+
+         <LinearLayout
+             android:id="@+id/shouye"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:layout_marginTop="5dp"
+             android:layout_marginBottom="5dp"
+             android:gravity="center"
+             android:orientation="vertical" >
+
+             <ImageView
+                 android:id="@+id/iv_shouye"
+                 android:layout_width="wrap_content"
+                 android:layout_height="20dp"
+                 android:src="@drawable/home1" />
+
+             <TextView
+                 android:id="@+id/tv_shouye"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="3dp"
+                 android:text="首页"
+                 android:textColor="#FFFFFF"
+                 android:textStyle="bold" />
+         </LinearLayout>
+    <LinearLayout
+        android:id="@+id/gongneng"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_gongneng"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:src="@drawable/gongneng" />
+
+        <TextView
+            android:id="@+id/tv_gongneng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="功能"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    <LinearLayout
+        android:id="@+id/xiaoxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_xiaoxi"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:src="@drawable/message" />
+
+        <TextView
+            android:id="@+id/tv_xiaoxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="消息"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            >
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="17dip"
+                android:layout_height="17dip"
+                android:gravity="center"
+                android:textSize="12dip"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_gravity="left|bottom" />
+    </FrameLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/shezhi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_shezhi"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:src="@drawable/shezhi" />
+
+        <TextView
+            android:id="@+id/tv_shezhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="设置"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+       </LinearLayout>
+    </LinearLayout>
+
+
